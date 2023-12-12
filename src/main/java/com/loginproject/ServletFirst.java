@@ -21,6 +21,7 @@ public class ServletFirst extends HttpServlet{
 		String name = req.getParameter("username");
 		
 		writer.print("Welcome  : "+name);
+		writer.print("Your password is secured");
 		
 	}
 
